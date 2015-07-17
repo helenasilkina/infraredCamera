@@ -1,16 +1,19 @@
 // import d3.js
 
-(function() {
-  var heatMap = {};
-  
-  heatMap.create = function(data) {
+var heatMap = (function() {
+  function create(data) {
     console.log('create heat map');
   };
   
-  heatMap.update = function(data) {
+  function update(data) {
     if (data.changed) {
       heatMap.create(data);
     }
     console.log('update heat map');
+  }
+  
+  return {
+    create: create,
+    update: update
   }
 })()
