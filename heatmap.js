@@ -1,3 +1,11 @@
+/*
+* Create heap map from infrared data 
+* 
+* @param: datd - lists in json format
+* @author: Helena Silkina
+*/
+
+
 // import d3.js
 
 var heatMap = (function() {
