@@ -7,6 +7,7 @@
 
 
 // import d3.js
+"use strict";
 
 var heatMap = (function() {
   function create(data) {
