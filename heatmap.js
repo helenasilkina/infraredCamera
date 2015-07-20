@@ -1,7 +1,7 @@
 /*
 * Create heap map from infrared data 
 * 
-* @param: datd - lists in json format
+* @param: data - lists in json format
 * @author: Helena Silkina
 */
 
