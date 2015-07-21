@@ -12,13 +12,25 @@
 var heatMap = (function() {
   function create(data) {
     console.log('create heat map');
+    drawCanvas();
+    drawMap(data);
   };
   
   function update(data) {
     if (data.changed) {
-      heatMap.create(data);
+      drawMap(data);
     }
     console.log('update heat map');
+  }
+  
+  function drawCanvas(object) {
+    var canvas = object || {};
+    console.log('draw canvas');
+  }
+  
+  function drawMap(data) {
+    var map = data || [];
+    console.log('draw map');
   }
   
   return {
